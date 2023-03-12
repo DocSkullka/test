@@ -1,0 +1,547 @@
+body{
+    background: #1E1E1E;
+    padding: 46px 150px 20px 150px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    margin-bottom: 90px;
+}
+
+main{
+    min-height: calc(100vh - 550px);
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoImg{
+    max-width: 140px;
+    height: 24px;
+}
+
+.logoText{
+    font-family: 'Montserrat';
+    font-size: 10px;
+    line-height: 12px;
+    color: #E4E5EA;
+}
+
+
+.navigation ul{
+    display: flex;
+    gap: 30px;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    margin: 0px;
+}
+
+
+.navigation ul li{
+    list-style-type: none;
+}
+
+.navigation ul li:hover{
+    cursor: pointer;
+}
+
+.telephoneNumber {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #E4E5EA;
+    align-self: flex-start;
+}
+
+.telephoneNumber:hover {
+    cursor: pointer;
+}
+
+.contacts{
+    display: flex;
+    margin-left: auto;
+    gap: 48.67px;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 34px;
+}
+
+.socialMedia img:hover {
+    cursor: pointer;
+}
+
+.leftSide h1 {
+    font-family: 'Inter';
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+}
+
+.welbexGradient{
+    font-family: 'Inter';
+    font-size: 48px;
+    line-height: 58px;   
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.leftSide p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    color: #E4E5EA;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between 
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+
+.rightSide h2{
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #E4E5EA;
+}
+
+.rightGradientFirst{
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 22px; 
+    background: linear-gradient(92deg, #FCB045 0%, #FD1D1D 57%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;    
+}
+
+.rightGradientSecond{
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 22px; 
+    background: linear-gradient(92deg, #FCB045 37.14%, #FD1D1D 150.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;    
+}
+
+.mobileBenefits {
+    display: none;
+}
+
+.benefitsText{
+    display: flex;
+    justify-content: end;
+    gap: 31px;
+}
+
+.benefitsH2{
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E4E5EA;
+}
+
+.benefitsP{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #E4E5EA;
+}
+
+.btn{
+    margin-top: 61px;
+    background: #4077F3;
+    padding: 21px 34px 21px 35px;
+    border: none;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E4E5EA;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.footerBase{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuText{
+    display: flex;
+    gap: 52px;
+}
+
+
+.footerH3{
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+}
+
+.footerP{
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 19px;  
+    color: #E4E5EA;
+}
+
+.footerContact{
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #E4E5EA;
+}
+
+.footerImg{
+    display: flex;
+    justify-content: end;
+    gap: 14px;
+}
+
+.mobileRightPart{
+    display: none;
+}
+
+.end{
+    margin-top: 33px;
+}
+
+#underline{
+    text-decoration-line: underline;
+}
+
+.endText{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #E4E5EA;
+}
+
+.redLight {
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: -102px;
+    top: 251px;
+
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
+.redBall{
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 519px;
+    top: 83px;
+
+    border-radius: 50%;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    backdrop-filter: blur(2px);
+}
+
+.redBallSecond{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 851px;
+    top: 547px;
+
+    border-radius: 50%;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    filter: blur(2.5px);
+    backdrop-filter: blur(2px);
+}
+
+.purpleLight{
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 602px;
+    top: -154px;
+
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
+.purpleBall {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 868px;
+    top: -2px;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+}
+
+.redLight , .purpleBall, .purpleLight, .redBallSecond, .redBall{
+    z-index: -1;
+}
+
+@media screen and (max-width: 1300px){
+    body{
+        padding: 46px 120px 20px 120px;
+    }
+}
+
+@media screen and (max-width: 1230px){
+    body{
+        padding: 46px 90px 20px 90px;
+    }
+}
+
+@media screen and (max-width: 1170px){
+    body{
+        padding: 46px 60px 20px 60px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    body{
+        padding: 46px 20px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    body{
+        padding: 46px 10px 20px 10px;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    body{ 
+        padding: 0px
+    }
+
+    header{
+        padding: 20px 16px;
+        margin-bottom: 0px;
+        justify-content: space-between;
+    }
+
+    main{
+        background: url('./assets/bg.png');
+        background-repeat: no-repeat;
+        padding: 40px 34px 59px 14px;
+        min-height: calc(100vh - 810px);
+    }
+
+    .navigation ul{
+        gap: 10px;
+        padding: 0px;
+        font-size: 15px;
+    }
+
+    #sertification {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+    .contacts{
+        display: none;
+    }
+
+
+    .information{
+        flex-direction: column;
+    }
+
+    .leftSide h1 {
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: 400;
+        margin: 0px;
+    }
+
+    .leftSide p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #E4E5EA;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .welbexGradient{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    
+    .rightSide h2{
+        margin: 0;
+        text-align: left;
+    }
+
+    .rightGradientFirst{
+        background: linear-gradient(92deg, #FCB045 15%, #FD1D1D 147%), #E4E5EA;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;   
+        text-transform: lowercase;
+    }
+    
+    .rightGradientSecond{
+        background: linear-gradient(92deg, #FCB045 50%, #FD1D1D 147%), #E4E5EA;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent; 
+        text-transform: lowercase;
+    }
+
+    .benefitsH2{
+        display: none;
+    }
+
+    .benefitsP{
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .mobileBenefits{
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .benefitsText{
+        gap: 0px;
+    }
+
+    .mobileSkype, .mobileVidget, .mobileDashboard, .mobileAMOCRM{
+        display: flex;
+        gap: 5px;
+    }
+
+    .mobileBenefitsImg{
+        width: 10px;
+        height: 1px;
+        background: linear-gradient(92deg, #FCB045 15%, #FD1D1D 147%), #E4E5EA;
+        align-self: center;
+    }
+
+    .mobileSkype h2, .mobileVidget h2 , .mobileDashboard h2, .mobileAMOCRM h2{
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #E4E5EA;
+    }
+
+    footer{
+        padding: 41px 34px 60px 15px;
+    }
+
+    .footerH3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.05em;
+    }
+
+    .footerP{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .rightPart{
+        display: none;
+    }
+
+    .mobileRightPart{
+        display: block;
+
+    }
+
+    #wrap{
+        white-space: nowrap;
+    }
+
+    .footerBase{
+        flex-direction: column;
+    }
+
+    .footerContact{
+        margin: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .footerContacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 11px;
+    }
+    
+    .end{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .endText{
+        margin: 0px;
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
